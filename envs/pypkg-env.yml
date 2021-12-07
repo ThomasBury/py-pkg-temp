@@ -1,0 +1,8 @@
+name: pypkg-env
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python>=3.8
+  - ipykernel
+  - jupyter

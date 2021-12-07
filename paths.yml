@@ -1,0 +1,17 @@
+# data
+data:
+  test: "C:/Users/USER_NAME/Documents/my_projects/data/test_data/"
+  train: "C:/Users/USER_NAME/Documents/my_projects/data/train_data/"
+  docs: "C:/Users/USER_NAME/Documents/my_projects/docs/"
+
+# Path to store all notebooks, ideally not versioned
+notebooks: "C:/Users/USER_NAME/Documents/my_projects/notebooks/"
+
+# Path to store all outputs (correlations, jsons, excel, etc)
+output: "C:/Users/USER_NAME/Documents/my_projects/output/"
+
+# Path to store all python scripts, for versioning
+scripts: "C:/Users/USER_NAME/Documents/my_projects/scripts/"
+
+# Path to Optuna studies
+studies: "C:/Users/USER_NAME/Documents/my_projects/studies/"
