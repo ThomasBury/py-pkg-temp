@@ -68,8 +68,8 @@ class Motorcycle(Vehicle):
     passengers : List[str]
         the passengers name
     """
-    def __init__(self, brand: str, n_seats: int = 2, passengers: List[str] = []):
-        Vehicle.__init__(self, n_seats=n_seats, passengers=passengers)
+    def __init__(self, brand: str, passengers: List[str] = []):
+        Vehicle.__init__(self, n_seats=2, passengers=passengers)
         self.seats = 2
         self.passengers = passengers
         self.brand = brand
